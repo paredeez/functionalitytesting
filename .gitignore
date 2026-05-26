@@ -1,0 +1,12 @@
+.next/
+node_modules/
+
+# local environment secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# allow checked-in env template
+!.env.local.example
